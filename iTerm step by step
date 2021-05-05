@@ -1,0 +1,7 @@
+ssh root@
+solana --version
+solana-install update
+solana slot
+solana leader-schedule -u localhost | grep 389U | grep 7563
+systemctl restart solana
+olana catchup /root/solana/validator-keypair.json --our-localhost
