@@ -6,4 +6,4 @@ solana leader-schedule -u localhost | grep 389U | grep 7563
 systemctl restart solana
 solana catchup /root/solana/validator-keypair.json --our-localhost
 
-# solana-install update && cd /root/solana && solana-validator wait-for-restart-window && systemctl restart solana
+# solana-install update && cd /root/solana && solana-validator wait-for-restart-window 30 && systemctl restart solana
