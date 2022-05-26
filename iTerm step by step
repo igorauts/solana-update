@@ -9,3 +9,4 @@ solana catchup /root/solana/validator-keypair.json --our-localhost
 # solana-install update && cd /root/solana && solana-validator wait-for-restart-window 30 && systemctl restart solana
 # solana-install init 1.8.5 && solana-validator --ledger /root/solana/ledger/ wait-for-restart-window 30 && systemctl restart solana
 # solana catchup /root/solana/validator-keypair.json --our-localhost --follow --log
+# tail -f /root/solana/solana.log
