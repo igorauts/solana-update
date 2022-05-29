@@ -1,6 +1,6 @@
 ssh root@
 solana --version
-solana-install update # solana-install init v1.7.0
+solana-install update # solana-install init v1.10.20
 solana slot
 solana leader-schedule -u localhost | grep 389U | grep 7563
 systemctl restart solana
